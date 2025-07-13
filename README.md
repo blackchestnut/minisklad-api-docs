@@ -33,7 +33,7 @@ Return Type | Description
 [Agreement](#agreement) | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 id | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 
 ### availableBoxes
@@ -42,7 +42,7 @@ Return Type | Description
 [[AvailableBox](#availablebox)!]! | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 storageId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 
 ### cities
@@ -51,7 +51,7 @@ Return Type | Description
 [[City](#city)!]! | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 region | String | 
 
 ### completedStorages
@@ -60,7 +60,7 @@ Return Type | Description
 [[Storage](#storage)!]! | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 region | String | 
 
 ### contacts
@@ -69,7 +69,7 @@ Return Type | Description
 [Contacts](#contacts)! | _Contacts_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 region | String | 
 
 ### countryCodes
@@ -83,7 +83,7 @@ Return Type | Description
 [[BluetoothLockStaff](#bluetoothlockstaff)!]! | _Locks with staff access_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 storageId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 
 ### loginByCode
@@ -96,7 +96,7 @@ Return Type | Description
 [User](#user) | _Login method_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 phone | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 code | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 
@@ -106,7 +106,7 @@ Return Type | Description
 [User](#user) | _Login method_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 email | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 password | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 
@@ -138,7 +138,7 @@ Return Type | Description
 [[Event](#event)!]! | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 page | Int | 
 
 ### myStorages
@@ -156,7 +156,7 @@ Return Type | Description
 [[Unit](#unit)!]! | _Units for current_user_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 isSharedAccessVisible | Boolean | 
 
 ### offices
@@ -170,7 +170,7 @@ Return Type | Description
 [Order](#order)! | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 boxId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 couponCode | String | 
 
@@ -180,7 +180,7 @@ Return Type | Description
 String! | _Test method_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 value | String | 
 
 ### profile
@@ -194,7 +194,7 @@ Return Type | Description
 [[StorageReview](#storagereview)!]! | 
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 id | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 page | Int | 
 perPage | Int | 
@@ -243,7 +243,7 @@ Return Type | Description
 Boolean! | _Close Agreement_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 id | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 closeReason | String | 
 
@@ -253,7 +253,7 @@ Return Type | Description
 Boolean! | _Confirm Agreement_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 id | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 
 ### createAgreement
@@ -262,7 +262,7 @@ Return Type | Description
 [OrderResult](#orderresult)! | _Create Agreement_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 boxId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 tariff | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 couponCode | String | 
@@ -273,7 +273,7 @@ Return Type | Description
 [Unit](#unit) | _Create GuestRequest_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 storageId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 boxId | Int | 
 name | String | 
@@ -287,7 +287,7 @@ Return Type | Description
 Boolean | _Upload profile image_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 imageData | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 
 ### createSharedAccess
@@ -296,7 +296,7 @@ Return Type | Description
 Boolean | _Создание совместного доступа для другого пользователя_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 name | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 phone | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 agreementId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
@@ -307,7 +307,7 @@ Return Type | Description
 Boolean | _Удаление совместного доступа для другого пользователя_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 id | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 agreementId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 
@@ -322,7 +322,7 @@ Return Type | Description
 Boolean! | _Save unlock event from the bluetooth app_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 lockId | Int! | _Represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1._
 isSuccess | Boolean! | _Represents `true` or `false` values._
 agreementId | Int | 
@@ -333,7 +333,7 @@ Return Type | Description
 Boolean! | _Отправка СМС кода для существующего пользователя_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 phone | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 
 ### sendUniversalAuthCode
@@ -342,7 +342,7 @@ Return Type | Description
 Boolean! | _Отправка СМС кода для нового пользователя и существующего_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 phone | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 
 ### signinByCode
@@ -351,7 +351,7 @@ Return Type | Description
 [User](#user) | _Авторизация и создание пользователя (если его еще нет)_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 phone | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 code | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 
@@ -361,7 +361,7 @@ Return Type | Description
 [Profile](#profile)! | _Update profile_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 surname | String | 
 name | String | 
 patronymic | String | 
@@ -372,7 +372,7 @@ Return Type | Description
 [Profile](#profile) | _Update and fill profile as company (company details)_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 extraPhone | String | 
 contactName | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 companyName | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
@@ -394,7 +394,7 @@ Return Type | Description
 [Profile](#profile) | _Update and fill profile as company (multiregional)_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 extraPhone | String | 
 contactName | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 companyName | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
@@ -407,7 +407,7 @@ Return Type | Description
 [Profile](#profile) | _Update and fill profile as personal (passport data)_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 fullName | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 fullNumber | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 birthday | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
@@ -422,7 +422,7 @@ Return Type | Description
 [Profile](#profile) | _Update and fill profile as personal (multiregional)_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 fullName | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 personalUid | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
 address | String! | _Represents textual data as UTF-8 character sequences. This type is most often used by GraphQL to represent free-form human-readable text._
@@ -433,7 +433,7 @@ Return Type | Description
 [User](#user) | _Update user_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 email | String | 
 password | String | 
 
@@ -443,7 +443,7 @@ Return Type | Description
 Boolean! | _Update user state_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 isActive | Boolean! | _Represents `true` or `false` values._
 
 ### webPasswordRecovery
@@ -452,7 +452,7 @@ Return Type | Description
 Boolean | _Recover password from web_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 input | [WebPasswordRecoveryInput](#webpasswordrecoveryinput)! | _Parameters for WebPasswordRecovery_
 
 ### webSignInByEmail
@@ -461,7 +461,7 @@ Return Type | Description
 [User](#user) | _Sign in user by email from web_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 input | [WebSignInByEmailInput](#websigninbyemailinput)! | _Parameters for WebSignInByEmail_
 
 ### webSignInByPhone
@@ -470,7 +470,7 @@ Return Type | Description
 [User](#user) | _Sign in user by phone from web_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 input | [WebSignInByPhoneInput](#websigninbyphoneinput)! | _Parameters for WebSignInByPhone_
 
 ### webSignUp
@@ -479,7 +479,7 @@ Return Type | Description
 [WebSignUpPayload](#websignuppayload) | _Create and sign in user from web_
 #### Arguments
 Name | Type | Description
--|-|-|-
+-|-|-
 input | [WebSignUpInput](#websignupinput)! | _Parameters for WebSignUp_
 ## Objects
 - [AccessKindEnum](#accesskindenum)
