@@ -30,7 +30,7 @@
 ### agreement
 Return Type | Description
 -|-
-[Agreement](#agreement) | 
+[Agreement](#agreement) | _Договор_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -39,7 +39,7 @@ id | Int! | _Represents non-fractional signed whole numeric values. Int can repr
 ### availableBoxes
 Return Type | Description
 -|-
-[[AvailableBox](#availablebox)!]! | 
+[[AvailableBox](#availablebox)!]! | _Список боксов доступных для аренды на складе_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -57,7 +57,7 @@ region | String |
 ### completedStorages
 Return Type | Description
 -|-
-[[Storage](#storage)!]! | 
+[[Storage](#storage)!]! | _Список складов_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -167,7 +167,7 @@ Return Type | Description
 ### order
 Return Type | Description
 -|-
-[Order](#order)! | 
+[Order](#order)! | _Информация об аренде бокса (тарифы, цены, скидки)_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -191,7 +191,7 @@ Return Type | Description
 ### storageReviews
 Return Type | Description
 -|-
-[[StorageReview](#storagereview)!]! | 
+[[StorageReview](#storagereview)!]! | _Отзывы о складе в Yandex.Map_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -240,7 +240,7 @@ Return Type | Description
 ### closeAgreement
 Return Type | Description
 -|-
-Boolean! | _Close Agreement_
+Boolean! | _Закрытие договора_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -250,7 +250,7 @@ closeReason | String |
 ### confirmAgreement
 Return Type | Description
 -|-
-Boolean! | _Confirm Agreement_
+Boolean! | _Подтверждение согласия с условиями договора_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -259,7 +259,7 @@ id | Int! | _Represents non-fractional signed whole numeric values. Int can repr
 ### createAgreement
 Return Type | Description
 -|-
-[OrderResult](#orderresult)! | _Create Agreement_
+[OrderResult](#orderresult)! | _Создание договора_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -270,7 +270,7 @@ couponCode | String |
 ### createGuestRequest
 Return Type | Description
 -|-
-[Unit](#unit) | _Create GuestRequest_
+[Unit](#unit) | _Создание гостевого визита_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -284,7 +284,7 @@ source | [GuestRequestSourceEnum](#guestrequestsourceenum) |
 ### createProfilePhoto
 Return Type | Description
 -|-
-Boolean | _Upload profile image_
+Boolean | _Загрузка фото профиля_
 #### Arguments
 Name | Type | Description
 -|-|-
@@ -319,7 +319,7 @@ Boolean! | _Force collect events for all nodes_
 ### saveBluetoothEvent
 Return Type | Description
 -|-
-Boolean! | _Save unlock event from the bluetooth app_
+Boolean! | _Сохранение данных об открытии бокса через Bluetooth_
 #### Arguments
 Name | Type | Description
 -|-|-
